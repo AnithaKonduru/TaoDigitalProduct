@@ -1,0 +1,14 @@
+CREATE TABLE test.PRODUCTS(
+	productid int not null, 
+	productname VARCHAR(255) not null,
+	productprice bigint not null, 
+	productstatus VARCHAR(255) not null,
+	posteddate datetime);
+
+
+CREATE TABLE test.APPROVALQUEUE(
+	productid int not null, 
+	productname VARCHAR(255) not null,
+	productprice bigint not null, 
+	productstatus VARCHAR(255) not null,
+	posteddate datetime);
